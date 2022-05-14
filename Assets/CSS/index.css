@@ -26,6 +26,8 @@ body {
 .bigcontainer{
     border: dashed rgb(240, 137, 41);
     border-radius: 2rem;
-    height: 100vh;
+    height: 80vh;
     width: 80vw;
+    margin:0 10rem ;
+    
 }
