@@ -6,6 +6,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+*{
+    color: antiquewhite;
+}
 
 /* section1 of our landing page */
 .section1 {
@@ -23,11 +26,18 @@ body {
   padding: 0.8rem;
 }
 /* section2 of our landing page */
-.bigcontainer{
-    border: dashed rgb(240, 137, 41);
-    border-radius: 2rem;
-    height: 80vh;
-    width: 80vw;
-    margin:0 10rem ;
-    
+.bigcontainer {
+  border: dashed rgb(240, 137, 41);
+  border-radius: 2rem;
+  height: 90vh;
+  width: 80vw;
+  margin: 3rem 10rem;
+  background-color: rgb(2, 2, 37,.5);
+  bcg;
+}
+.questiontitle{
+    color: beige;
+}
+.question1{
+    color: blanchedalmond;
 }
