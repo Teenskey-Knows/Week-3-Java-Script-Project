@@ -41,3 +41,7 @@ body {
 .question1{
     color: blanchedalmond;
 }
+.myform{
+    display: flex;
+    flex-direction: column;
+}
