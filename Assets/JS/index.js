@@ -8,7 +8,7 @@ document.getElementById("form1").onsubmit=function(e) {
     e.preventDefault();
 
     variable = parseInt(document.querySelector('input[name = "question1"]:checked').value);
-    second = parseInt(document.querySelector('input[name = "second"]:checked').value);
+    second = parseInt(document.querySelector('input[name = "question2"]:checked').value);
     sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
     con = parseInt(document.querySelector('input[name = "con"]:checked').value);
     ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
