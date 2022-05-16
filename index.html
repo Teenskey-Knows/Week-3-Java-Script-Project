@@ -10,9 +10,9 @@
   <body>
     <div class="bigcontainer">
       <div class="stylingform"> 
-        <form action="" class="myform">
+        <form id="form1" class="myform">
           <h2>1. What is Javascript?</h2>
-          <label>
+          <label for="var_string">
             <input type="radio" name="variable" value="0" id="var_string" />It
             is a hyper text markup language.
           </label>
@@ -22,7 +22,7 @@
             up languages.
           </label>
           <label for="var_info"
-            ><input type="radio" name="variable" value="25" id="var_info" />It
+            ><input type="radio" name="variable" value="20" id="var_info" />It
             is an object oriented programming language used to create
             interactiveness within the websites.
           </label>
@@ -38,42 +38,42 @@
 
           <!-- Question 2 -->
           <h2>2. How do you define a variable in javascript?</h2>
-          <label for="var_sting"
+          <label for="second_string"
             ><input
               type="radio"
-              name="variable"
+              name="second"
               value="0"
-              id="var_string"
+              id="second_string"
             />Name = Jonathan.
           </label>
-          <label for="var_join"
+          <label for="second_join"
             ><input
               type="radio"
-              name="variable"
+              name="second"
               value="0"
-              id="var_join"
+              id="second_join"
             />variable name = Jonathan .
           </label>
-          <label for="var_info"
-            ><input type="radio" name="variable" value="25" id="var_info" /> var
+          <label for="second_info"
+            ><input type="radio" name="second" value="20" id="second_info" /> var
             name = Jonathan.
           </label>
-          <label for="var_condition"
-            ><input type="radio" name="variable" value="0" id="var_condition" />
+          <label for="second_condition"
+            ><input type="radio" name="second" value="0" id="second_condition" />
             Jonathan = variable name.
           </label>
 
           <!-- Question 3 -->
 
           <h2>3. Which of the following isa preserved name in Javascript?</h2>
-          <label for="sub_sting"
+          <label for="sub_string"
             ><input type="radio" name="sub" value="0" id="sub_string" /> House.
           </label>
-          <label for="var_join"
-            ><input type="radio" name="variable" value="0" id="var_join" />Tree.
+          <label for="sub_join"
+            ><input type="radio" name="sub" value="0" id="sub_join" />Tree.
           </label>
           <label for="sub_info"
-            ><input type="radio" name="sub" value="25" id="sub_info" />Debugger.
+            ><input type="radio" name="sub" value="20" id="sub_info" />Debugger.
           </label>
           <label for="sub_condition"
             ><input
@@ -87,7 +87,7 @@
           <!-- Question 4 -->
 
           <h2>4. Define what a function is in javascript:</h2>
-          <label for="cat_sting"
+          <label for="cat_string"
             ><input type="radio" name="con" value="0" id="cat_string" />It is a
             set of questions.
           </label>
@@ -96,7 +96,7 @@
             to concatenate strings.
           </label>
           <label for="cat_info"
-            ><input type="radio" name="con" value="25" id="cat_info" />It is a
+            ><input type="radio" name="con" value="20" id="cat_info" />It is a
             set of reusable instructions.
           </label>
           <label for="cat_condition"
@@ -107,28 +107,28 @@
           <!-- Question 5 -->
 
           <h2>5. When was Javascript first created?</h2>
-          <label for="if_sting"
+          <label for="if_string"
             ><input type="radio" name="ifstate" value="0" id="if_string" />2005.
           </label>
           <label for="if_join"
             ><input type="radio" name="ifstate" value="0" id="if_join" />2019.
           </label>
           <label for="if_info"
-            ><input type="radio" name="ifstate" value="0" id="if_info" />1995.
+            ><input type="radio" name="ifstate" value="20" id="if_info" />1995.
           </label>
           <label for="if_condition"
             ><input
               type="radio"
               name="ifstate"
-              value="25"
+              value="0"
               id="if_condition"
             />2022.
           </label>
 
-          <button type="submit" value="submit">Submit Answers</button>
+          <button id="submitButton" type="submit" value="submit">Submit Answers</button>
         </form>
 
-        <p>Your grade is: <span id="grade">__</span></p>
+        <p>Your grade is: <span id="grade"> </span></p>
         <p id="grade2"></p>
       </div>
     </div>
